@@ -13,7 +13,7 @@
 <% @usuarios.each do |usuario| %>
   <tr>
     <td><%= usuario.login %></td>
-    <td><%= usuario.senha %></td>
+    <td>***</td>
     <td><%= usuario.email %></td>
     <td><%= link_to 'Ver', usuario %></td>
     <td><%= link_to 'Editar', edit_usuario_path(usuario) %></td>

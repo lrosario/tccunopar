@@ -1,3 +1,20 @@
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script> 
+<!--<script type="text/javascript" src="https://raw.github.com/digitalBush/jquery.maskedinput/1.3.1/dist/jquery.maskedinput.min.js"></script> -->
+<script type="text/javascript" src="http://digitalbush.com/wp-content/uploads/2013/01/jquery.maskedinput-1.3.1.min_.js"></script> 
+<script type="text/javascript">// <![CDATA[
+jQuery(function($) {
+      $.mask.definitions['~']='[+-]';
+      $('#date').mask('99/99/9999');
+      $('#phone').mask('(99) 9999-9999');
+   });
+// ]]&gt;</script>		
+
+</div> 
+
+</body>
+</html>
+
+ 
 <%= javascript_include_tag "application", "jquery.maskedinput" %>
 <%= form_for(@cliente) do |f| %>
   <% if @cliente.errors.any? %>
