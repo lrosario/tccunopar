@@ -1,0 +1,37 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Produto</h1>
+
+<div class="navegacao">
+  <%= link_to 'Voltar', produtos_path %>
+</div>
+
+<p>
+  <b>Código:</b>
+  <%= @produto.codigo %>
+</p>
+
+<p>
+  <b>Descrição:</b>
+  <%= @produto.descricao %>
+</p>
+
+<p>
+  <b>Setor:</b>
+  <%= @produto.setor %>
+</p>
+
+<p>
+  <b>Preço de custo:</b>
+  <%= @produto.preco_de_custo %>
+</p>
+
+<p>
+  <b>Margem de lucro:</b>
+  <%= @produto.margem_de_lucro %>
+</p>
+
+<p>
+  <b>Preço de venda:</b>
+  <%= @produto.preco_de_venda %>
+</p>

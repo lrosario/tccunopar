@@ -1,0 +1,30 @@
+<%= form_for(@estoque) do |f| %>
+  <% if @estoque.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@estoque.errors.count, "error") %> prohibited this estoque from being saved:</h2>
+
+      <ul>
+      <% @estoque.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+    <div class="field">
+      <%= f.label :produto %><br />
+      <%#= f.text_field :produto %>
+      <%= f.select(:produto_id, Produto.all.collect {|p| [ p.codigo.to_s + " - " + p.descricao.to_s, p.id ] }, {:include_blank => true}) %>
+    </div>
+  <div class="field">
+    <%= f.label :quantidade %><br />
+    <%= f.number_field :quantidade %>
+  </div>
+  <div class="field">
+    <%= f.label :quantidade_minima, "Quantidade Mínima" %><br />
+    <%= f.number_field :quantidade_minima %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,27 @@
+<h1>Estoque</h1>
+
+<table>
+  <tr>
+    <th>Quantidade</th>
+    <th>Quantidade minima</th>
+    <th>Produto</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @estoques.each do |estoque| %>
+  <tr>
+    <td><%= estoque.quantidade %></td>
+    <td><%= estoque.quantidade_minima %></td>
+    <td><%= estoque.produto %></td>
+    <td><%= link_to 'Ver', estoque %></td>
+    <td><%= link_to 'Editar', edit_estoque_path(estoque) %></td>
+    <td><%= link_to 'Deletar', estoque, confirm: 'Tem certeza?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Novo', new_estoque_path %>

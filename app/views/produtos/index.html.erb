@@ -1,0 +1,45 @@
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#nEstocar").dialog({
+            modal: false,
+            autoOpen: false,
+            width: '400'
+        });
+    });
+</script>
+
+<h1>Produtos</h1>
+
+<table>
+  <tr>
+    <th>Código</th>
+    <th>Descrição</th>
+    <th>Setor</th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @produtos.each do |produto| %>
+  <tr>
+    <td><%= produto.codigo %></td>
+    <td><%= produto.descricao %></td>
+    <td><%= produto.setor %></td>
+    <td class="acao"><%= link_to image_tag('estocar.png'), "/estocar_produto/" + produto.id.to_s + "/new", :remote => true %></td>
+    <td class="acao"><%= link_to image_tag('exibir.png'), produto %></td>
+    <td class="acao"><%= link_to image_tag('editar.png'), edit_produto_path(produto) %></td>
+    <td class="acao"><%= link_to image_tag('excluir.png'), produto, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<div class="actions">
+
+  <%= link_to 'Novo', new_produto_path %>
+</div>
+
+<div id="nEstocar" title="Estoque"></div>

@@ -1,0 +1,822 @@
+Script started on Sun May  4 20:51:30 2014
+]0;devil@hell: ~/tccunopardevil@hell:~/tccunopar$ script/plugin install git://github.com/aaronchi/jrails.g it
+bash: script/plugin: No such file or directory
+]0;devil@hell: ~/tccunopardevil@hell:~/tccunopar$ [Krails 
+^C/home/devil/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require': Interrupt
+	from /home/devil/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/devil/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/request.rb:1:in `<top (required)>'
+	from /home/devil/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/devil/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/devil/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/remote_fetcher.rb:2:in `<top (required)>'
+	from /home/devil/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/devil/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/devil/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/spec_fetcher.rb:1:in `<top (required)>'
+	from /home/devil/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/devil/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.3.5/lib/bundler/source/rubygems.rb:3:in `<top (required)>'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.3.5/lib/bundler/dsl.rb:18:in `initialize'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.3.5/lib/bundler/dsl.rb:8:in `new'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.3.5/lib/bundler/dsl.rb:8:in `evaluate'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.3.5/lib/bundler/definition.rb:19:in `build'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.3.5/lib/bundler.rb:148:in `definition'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.3.5/lib/bundler.rb:116:in `setup'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.3.5/lib/bundler/setup.rb:7:in `<top (required)>'
+	from /home/devil/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/devil/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+
+]0;devil@hell: ~/tccunopardevil@hell:~/tccunopar$ rails h
+Error: Command not recognized
+Usage: rails COMMAND [ARGS]
+
+The most common rails commands are:
+ generate    Generate new code (short-cut alias: "g")
+ console     Start the Rails console (short-cut alias: "c")
+ server      Start the Rails server (short-cut alias: "s")
+ dbconsole   Start a console for the database specified in config/database.yml
+             (short-cut alias: "db")
+ new         Create a new Rails application. "rails new my_app" creates a
+             new application called MyApp in "./my_app"
+
+In addition to those, there are:
+ application  Generate the Rails application code
+ destroy      Undo code generated with "generate" (short-cut alias: "d")
+ benchmarker  See how fast a piece of code runs
+ profiler     Get profile information from a piece of code
+ plugin       Install a plugin
+ runner       Run a piece of code in the application environment (short-cut alias: "r")
+
+All commands can be run with -h (or --help) for more information.
+]0;devil@hell: ~/tccunopardevil@hell:~/tccunopar$ rails plugin install                script/plugin install git://github.com/aaronchi/jr ails.git
+Error: Command not recognized
+Usage: rails COMMAND [ARGS]
+
+The most common rails commands are:
+ generate    Generate new code (short-cut alias: "g")
+ console     Start the Rails console (short-cut alias: "c")
+ server      Start the Rails server (short-cut alias: "s")
+ dbconsole   Start a console for the database specified in config/database.yml
+             (short-cut alias: "db")
+ new         Create a new Rails application. "rails new my_app" creates a
+             new application called MyApp in "./my_app"
+
+In addition to those, there are:
+ application  Generate the Rails application code
+ destroy      Undo code generated with "generate" (short-cut alias: "d")
+ benchmarker  See how fast a piece of code runs
+ profiler     Get profile information from a piece of code
+ plugin       Install a plugin
+ runner       Run a piece of code in the application environment (short-cut alias: "r")
+
+All commands can be run with -h (or --help) for more information.
+]0;devil@hell: ~/tccunopardevil@hell:~/tccunopar$ [Krails plugin install git://github.com/aaronchi/jrails.gi t
+Initialized empty Git repository in /home/devil/tccunopar/vendor/plugins/jrails/.git/
+remote: Counting objects: 26, done.[K
+remote: Compressing objects:   5% (1/19)   [Kremote: Compressing objects:  10% (2/19)   [Kremote: Compressing objects:  15% (3/19)   [Kremote: Compressing objects:  21% (4/19)   [Kremote: Compressing objects:  26% (5/19)   [Kremote: Compressing objects:  31% (6/19)   [Kremote: Compressing objects:  36% (7/19)   [Kremote: Compressing objects:  42% (8/19)   [Kremote: Compressing objects:  47% (9/19)   [Kremote: Compressing objects:  52% (10/19)   [Kremote: Compressing objects:  57% (11/19)   [Kremote: Compressing objects:  63% (12/19)   [Kremote: Compressing objects:  68% (13/19)   [Kremote: Compressing objects:  73% (14/19)   [Kremote: Compressing objects:  78% (15/19)   [Kremote: Compressing objects:  84% (16/19)   [Kremote: Compressing objects:  89% (17/19)   [Kremote: Compressing objects:  94% (18/19)   [Kremote: Compressing objects: 100% (19/19)   [Kremote: Compressing objects: 100% (19/19), done.[K
+Unpacking objects:   3% (1/26)   Unpacking objects:   7% (2/26)   Unpacking objects:  11% (3/26)   Unpacking objects:  15% (4/26)   Unpacking objects:  19% (5/26)   Unpacking objects:  23% (6/26)   Unpacking objects:  26% (7/26)   Unpacking objects:  30% (8/26)   Unpacking objects:  34% (9/26)   Unpacking objects:  38% (10/26)   Unpacking objects:  42% (11/26)   Unpacking objects:  46% (12/26)   Unpacking objects:  50% (13/26)   Unpacking objects:  53% (14/26)   Unpacking objects:  57% (15/26)   Unpacking objects:  61% (16/26)   Unpacking objects:  65% (17/26)   Unpacking objects:  69% (18/26)   Unpacking objects:  73% (19/26)   Unpacking objects:  76% (20/26)   Unpacking objects:  80% (21/26)   remote: Total 26 (delta 0), reused 15 (delta 0)[K
+Unpacking objects:  84% (22/26)   Unpacking objects:  88% (23/26)   Unpacking objects:  92% (24/26)   Unpacking objects:  96% (25/26)   Unpacking objects: 100% (26/26)   Unpacking objects: 100% (26/26), done.
+From git://github.com/aaronchi/jrails
+ * branch            HEAD       -> FETCH_HEAD
+Copying files...
+Plugin not found: ["git://github.com/aaronchi/jrails.git"]
+]0;devil@hell: ~/tccunopardevil@hell:~/tccunopar$ [Krails plugin install git://github.com/aaronchi/jrails.gitt [A]0;devil@hell: ~/tccunopardevil@hell:~/tccunopar$ rails plugin install git://github.com/aaronchi/jrails.gi [K[Adevil@hell:~/tccunopar$ rails plugin install git://github.com/aaronchi/jrails.g[K
+[K[Adevil@hell:~/tccunopar$ rails plugin install git://github.com/aaronchi/jrails.g                                  https://github.com/aaronchi/jrails. git
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /home/devil/tccunopar/config/environment.rb:5)
+/home/devil/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-3.2.5/lib/active_support/dependencies.rb:251:in `require': cannot load such file -- rails/init.rb (LoadError)
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-3.2.5/lib/active_support/dependencies.rb:251:in `block in require'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-3.2.5/lib/active_support/dependencies.rb:236:in `load_dependency'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-3.2.5/lib/active_support/dependencies.rb:251:in `require'
+	from /home/devil/tccunopar/vendor/plugins/jrails/init.rb:1:in `block in <class:Plugin>'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/plugin.rb:82:in `eval'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/plugin.rb:82:in `block in <class:Plugin>'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/initializable.rb:30:in `instance_exec'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/initializable.rb:30:in `run'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/initializable.rb:55:in `block in run_initializers'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/initializable.rb:54:in `each'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/initializable.rb:54:in `run_initializers'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/application.rb:136:in `initialize!'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/railtie/configurable.rb:30:in `method_missing'
+	from /home/devil/tccunopar/config/environment.rb:5:in `<top (required)>'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/application.rb:103:in `require'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/application.rb:103:in `require_environment!'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/commands.rb:25:in `<top (required)>'
+	from script/rails:6:in `require'
+	from script/rails:6:in `<main>'
+]0;devil@hell: ~/tccunopardevil@hell:~/tccunopar$ [Knano Gemfile
+[?1049h[1;25r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6               File: Gemfile                                    [3;1H(B[msource 'https://rubygems.org'[5dgem 'rails', '3.2.5'[7d# Bundle edge Rails instead:[8d# gem 'rails', :git => 'git://github.com/rails/rails.git'[10d#gem 'pg'[11dgem 'thin'[12dgem 'mysql2'[14d# Gems used only for assets and not required[15d# in production environments by default.[16dgroup :assets do[17;3Hgem 'sass-rails',   '~> 3.2.3'[18;3Hgem 'coffee-rails', '~> 3.2.1'[20;3H# See https://github.com/sstephenson/execjs#readme for more supported runtimes[21;3H# gem 'therubyracer', :platforms => :ruby[23;32H(B[0;7m[ Read 39 lines ][24d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[25d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[4d[5d[6d[7d[8d[9d[10d[11d[12d[13d[14d[A[1;71H(B[0;7mModified[13d(B[mgem 'masked_input-rails'[23d[K[13;25H[23d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [24;1H Y(B[m Yes[K[25d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[23;62H(B[0;7mFile Name to Write: Gemfile                                 [24d^G(B[m Get Help[24;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[24;61H(B[0;7mM-B(B[m Backup File[25d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[23;28H[24d[39;49m(B[m[J[1;71H(B[0;7m        [23;31H(B[m[1K (B[0;7m[ Wrote 39 lines ](B[m[K[25;80H[25;1H[?1049l[?1l>]0;devil@hell: ~/tccunopardevil@hell:~/tccunopar$ bundle 
+Fetching gem metadata from https://rubygems.org/...........
+Fetching gem metadata from https://rubygems.org/..
+Resolving dependencies...
+Using rake (0.9.2.2) 
+Using i18n (0.6.1) 
+Using multi_json (1.3.6) 
+Using activesupport (3.2.5) 
+Using builder (3.0.4) 
+Using activemodel (3.2.5) 
+Using erubis (2.7.0) 
+Using journey (1.0.4) 
+Using rack (1.4.1) 
+Using rack-cache (1.2) 
+Using rack-test (0.6.2) 
+Using hike (1.2.1) 
+Using tilt (1.3.3) 
+Using sprockets (2.1.3) 
+Using actionpack (3.2.5) 
+Using mime-types (1.19) 
+Using polyglot (0.3.3) 
+Using treetop (1.4.11) 
+Using mail (2.4.4) 
+Using actionmailer (3.2.5) 
+Using arel (3.0.2) 
+Using tzinfo (0.3.34) 
+Using activerecord (3.2.5) 
+Using activeresource (3.2.5) 
+Using bundler (1.3.5) 
+Using coffee-script-source (1.4.0) 
+Using execjs (1.4.0) 
+Using coffee-script (2.2.0) 
+Using rack-ssl (1.3.2) 
+Using json (1.7.5) 
+Using rdoc (3.12) 
+Using thor (0.16.0) 
+Using railties (3.2.5) 
+Using coffee-rails (3.2.2) 
+Using daemons (1.1.9) 
+Using eventmachine (1.0.3) 
+Using jquery-rails (2.1.3) 
+Installing masked_input-rails (1.1.0) 
+Using mysql2 (0.3.14) 
+Using rails (3.2.5) 
+Using sass (3.2.1) 
+Using sass-rails (3.2.5) 
+Using thin (1.5.1) 
+Using uglifier (1.3.0) 
+[32mYour bundle is complete![0m
+[32mUse `bundle show [gemname]` to see where a bundled gem is installed.[0m
+]0;devil@hell: ~/tccunopardevil@hell:~/tccunopar$ rails s
+=> Booting Thin
+=> Rails 3.2.5 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /home/devil/tccunopar/config/environment.rb:5)
+Exiting
+/home/devil/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-3.2.5/lib/active_support/dependencies.rb:251:in `require': cannot load such file -- rails/init.rb (LoadError)
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-3.2.5/lib/active_support/dependencies.rb:251:in `block in require'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-3.2.5/lib/active_support/dependencies.rb:236:in `load_dependency'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-3.2.5/lib/active_support/dependencies.rb:251:in `require'
+	from /home/devil/tccunopar/vendor/plugins/jrails/init.rb:1:in `block in <class:Plugin>'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/plugin.rb:82:in `eval'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/plugin.rb:82:in `block in <class:Plugin>'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/initializable.rb:30:in `instance_exec'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/initializable.rb:30:in `run'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/initializable.rb:55:in `block in run_initializers'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/initializable.rb:54:in `each'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/initializable.rb:54:in `run_initializers'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/application.rb:136:in `initialize!'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/railtie/configurable.rb:30:in `method_missing'
+	from /home/devil/tccunopar/config/environment.rb:5:in `<top (required)>'
+	from /home/devil/tccunopar/config.ru:4:in `require'
+	from /home/devil/tccunopar/config.ru:4:in `block in <main>'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/rack-1.4.1/lib/rack/builder.rb:51:in `instance_eval'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/rack-1.4.1/lib/rack/builder.rb:51:in `initialize'
+	from /home/devil/tccunopar/config.ru:1:in `new'
+	from /home/devil/tccunopar/config.ru:1:in `<main>'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/rack-1.4.1/lib/rack/builder.rb:40:in `eval'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/rack-1.4.1/lib/rack/builder.rb:40:in `parse_file'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/rack-1.4.1/lib/rack/server.rb:200:in `app'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/commands/server.rb:46:in `app'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/rack-1.4.1/lib/rack/server.rb:301:in `wrapped_app'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/rack-1.4.1/lib/rack/server.rb:252:in `start'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/commands/server.rb:70:in `start'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/commands.rb:55:in `block in <top (required)>'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/commands.rb:50:in `tap'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/commands.rb:50:in `<top (required)>'
+	from script/rails:6:in `require'
+	from script/rails:6:in `<main>'
+]0;devil@hell: ~/tccunopardevil@hell:~/tccunopar$ c rail ls sbundle nano Gemfilerails plugin install https://github.com/aaronchi/jrails.ggit[Ail@hell:~/tccunopar$ nano Gemfile[K
+[K[Adevil@hell:~/tccunopar$ nano Gemfile            cd pl  app/plugi         script/          ria  ails plugin 
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /home/devil/tccunopar/config/environment.rb:5)
+/home/devil/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-3.2.5/lib/active_support/dependencies.rb:251:in `require': cannot load such file -- rails/init.rb (LoadError)
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-3.2.5/lib/active_support/dependencies.rb:251:in `block in require'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-3.2.5/lib/active_support/dependencies.rb:236:in `load_dependency'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-3.2.5/lib/active_support/dependencies.rb:251:in `require'
+	from /home/devil/tccunopar/vendor/plugins/jrails/init.rb:1:in `block in <class:Plugin>'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/plugin.rb:82:in `eval'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/plugin.rb:82:in `block in <class:Plugin>'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/initializable.rb:30:in `instance_exec'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/initializable.rb:30:in `run'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/initializable.rb:55:in `block in run_initializers'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/initializable.rb:54:in `each'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/initializable.rb:54:in `run_initializers'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/application.rb:136:in `initialize!'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/railtie/configurable.rb:30:in `method_missing'
+	from /home/devil/tccunopar/config/environment.rb:5:in `<top (required)>'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/application.rb:103:in `require'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/application.rb:103:in `require_environment!'
+	from /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/railties-3.2.5/lib/rails/commands.rb:25:in `<top (required)>'
+	from script/rails:6:in `require'
+	from script/rails:6:in `<main>'
+]0;devil@hell: ~/tccunopardevil@hell:~/tccunopar$ cd vendor/plugins/
+]0;devil@hell: ~/tccunopar/vendor/pluginsdevil@hell:~/tccunopar/vendor/plugins$ ls
+[0m[01;34mjrails[0m
+]0;devil@hell: ~/tccunopar/vendor/pluginsdevil@hell:~/tccunopar/vendor/plugins$ rm -rf jrails/
+]0;devil@hell: ~/tccunopar/vendor/pluginsdevil@hell:~/tccunopar/vendor/plugins$ cd ..
+]0;devil@hell: ~/tccunopar/vendordevil@hell:~/tccunopar/vendor$ ls
+[0m[01;34massets[0m  [01;34mplugins[0m
+]0;devil@hell: ~/tccunopar/vendordevil@hell:~/tccunopar/vendor$ cd ..
+]0;devil@hell: ~/tccunopardevil@hell:~/tccunopar$ rais ls s
+=> Booting Thin
+=> Rails 3.2.5 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+>> Thin web server (v1.5.1 codename Straight Razor)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-04 21:07:28 -0300
+Connecting to database specified by database.yml
+Processing by LoginController#index as HTML
+  Rendered login/new.html.erb within layouts/login (4.0ms)
+Compiled application.js  (2ms)  (pid 4924)
+  Rendered layouts/_header.html.erb (283.4ms)
+  Rendered layouts/_topo.html.erb (3.1ms)
+  Rendered layouts/_rodape.html.erb (1.6ms)
+Completed 200 OK in 343ms (Views: 341.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-05-04 21:07:30 -0300
+Served asset /reset.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/960.css?body=1" for 127.0.0.1 at 2014-05-04 21:07:30 -0300
+Served asset /960.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-04 21:07:30 -0300
+Served asset /application.css - 304 Not Modified (101ms)
+
+
+Started GET "/assets/sunny/jquery-ui-1.9.1.custom.min.css?body=1" for 127.0.0.1 at 2014-05-04 21:07:30 -0300
+Served asset /sunny/jquery-ui-1.9.1.custom.min.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/template.css?body=1" for 127.0.0.1 at 2014-05-04 21:07:30 -0300
+Served asset /template.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-04 21:07:30 -0300
+Served asset /application.js - 200 OK (16ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-05-04 21:07:30 -0300
+Served asset /logo.png - 304 Not Modified (164ms)
+
+
+Started GET "/assets/body_fundo.png" for 127.0.0.1 at 2014-05-04 21:07:31 -0300
+Served asset /body_fundo.png - 304 Not Modified (21ms)
+
+
+Started GET "/assets/rodape_fundo.png" for 127.0.0.1 at 2014-05-04 21:07:31 -0300
+Served asset /rodape_fundo.png - 304 Not Modified (13ms)
+
+
+Started POST "/login/create" for 127.0.0.1 at 2014-05-04 21:07:34 -0300
+Processing by LoginController#create as HTML
+  Parameters: {"login"=>"Gerente", "senha"=>"123"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mUsuario Load (12.4ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE (login = 'Gerente' AND senha = '123') LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/home/index
+Completed 302 Found in 85ms (ActiveRecord: 12.4ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-05-04 21:07:34 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (17.7ms)
+  Rendered layouts/_topo.html.erb (0.8ms)
+  Rendered layouts/_sessao.html.erb (4.4ms)
+  Rendered layouts/_menu.html.erb (12.9ms)
+  Rendered layouts/_rodape.html.erb (0.2ms)
+Completed 200 OK in 78ms (Views: 71.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-05-04 21:07:34 -0300
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/960.css?body=1" for 127.0.0.1 at 2014-05-04 21:07:34 -0300
+Served asset /960.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-04 21:07:34 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sunny/jquery-ui-1.9.1.custom.min.css?body=1" for 127.0.0.1 at 2014-05-04 21:07:34 -0300
+Served asset /sunny/jquery-ui-1.9.1.custom.min.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/template.css?body=1" for 127.0.0.1 at 2014-05-04 21:07:34 -0300
+Served asset /template.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-05-04 21:07:34 -0300
+Served asset /logo.png - 304 Not Modified (3ms)
+
+
+Started GET "/resources/demos/style.css" for 127.0.0.1 at 2014-05-04 21:07:34 -0300
+
+ActionController::RoutingError (No route matches [GET] "/resources/demos/style.css"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.7ms)
+
+
+Started GET "/clientes" for 127.0.0.1 at 2014-05-04 21:07:40 -0300
+Processing by ClientesController#index as HTML
+  [1m[35mCliente Load (0.4ms)[0m  SELECT `clientes`.* FROM `clientes` 
+  Rendered clientes/index.html.erb within layouts/application (16.9ms)
+  Rendered layouts/_header.html.erb (16.4ms)
+  Rendered layouts/_topo.html.erb (0.8ms)
+  Rendered layouts/_sessao.html.erb (1.5ms)
+  Rendered layouts/_menu.html.erb (5.3ms)
+  Rendered layouts/_rodape.html.erb (0.2ms)
+Completed 200 OK in 111ms (Views: 56.9ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-05-04 21:07:41 -0300
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/960.css?body=1" for 127.0.0.1 at 2014-05-04 21:07:41 -0300
+Served asset /960.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-04 21:07:41 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sunny/jquery-ui-1.9.1.custom.min.css?body=1" for 127.0.0.1 at 2014-05-04 21:07:41 -0300
+Served asset /sunny/jquery-ui-1.9.1.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/template.css?body=1" for 127.0.0.1 at 2014-05-04 21:07:41 -0300
+Served asset /template.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-04 21:07:41 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-05-04 21:07:41 -0300
+Served asset /logo.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/exibir.png" for 127.0.0.1 at 2014-05-04 21:07:41 -0300
+Served asset /exibir.png - 304 Not Modified (35ms)
+
+
+Started GET "/assets/editar.png" for 127.0.0.1 at 2014-05-04 21:07:41 -0300
+Served asset /editar.png - 304 Not Modified (18ms)
+
+
+Started GET "/assets/excluir.png" for 127.0.0.1 at 2014-05-04 21:07:41 -0300
+Served asset /excluir.png - 304 Not Modified (5ms)
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-05-04 21:07:43 -0300
+Processing by ClientesController#new as HTML
+  Rendered clientes/_form.html.erb (212.3ms)
+  Rendered clientes/new.html.erb within layouts/application (220.4ms)
+  Rendered layouts/_header.html.erb (14.6ms)
+  Rendered layouts/_topo.html.erb (0.7ms)
+  Rendered layouts/_sessao.html.erb (1.7ms)
+  Rendered layouts/_menu.html.erb (5.4ms)
+  Rendered layouts/_rodape.html.erb (0.2ms)
+Completed 200 OK in 270ms (Views: 259.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-05-04 21:07:43 -0300
+Served asset /reset.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/960.css?body=1" for 127.0.0.1 at 2014-05-04 21:07:43 -0300
+Served asset /960.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-04 21:07:43 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sunny/jquery-ui-1.9.1.custom.min.css?body=1" for 127.0.0.1 at 2014-05-04 21:07:43 -0300
+Served asset /sunny/jquery-ui-1.9.1.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/template.css?body=1" for 127.0.0.1 at 2014-05-04 21:07:43 -0300
+Served asset /template.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-04 21:07:43 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.maskedinput.js?body=1" for 127.0.0.1 at 2014-05-04 21:07:43 -0300
+Served asset /jquery.maskedinput.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-05-04 21:07:44 -0300
+Served asset /logo.png - 304 Not Modified (1ms)
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-05-04 21:09:43 -0300
+Processing by ClientesController#new as HTML
+  Rendered clientes/_form.html.erb (20.6ms)
+  Rendered clientes/new.html.erb within layouts/application (25.5ms)
+Compiled application.js  (1ms)  (pid 4924)
+  Rendered layouts/_header.html.erb (35.9ms)
+  Rendered layouts/_topo.html.erb (0.8ms)
+  Rendered layouts/_sessao.html.erb (1.7ms)
+  Rendered layouts/_menu.html.erb (5.2ms)
+  Rendered layouts/_rodape.html.erb (0.2ms)
+Completed 200 OK in 91ms (Views: 86.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-05-04 21:09:44 -0300
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/960.css?body=1" for 127.0.0.1 at 2014-05-04 21:09:44 -0300
+Served asset /960.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-04 21:09:44 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sunny/jquery-ui-1.9.1.custom.min.css?body=1" for 127.0.0.1 at 2014-05-04 21:09:44 -0300
+Served asset /sunny/jquery-ui-1.9.1.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/template.css?body=1" for 127.0.0.1 at 2014-05-04 21:09:44 -0300
+Served asset /template.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-04 21:09:44 -0300
+Served asset /application.js - 200 OK (8ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-05-04 21:09:44 -0300
+Served asset /logo.png - 304 Not Modified (1ms)
+
+
+Started GET "/clientes/jquery.js" for 127.0.0.1 at 2014-05-04 21:09:44 -0300
+Processing by ClientesController#show as JS
+  Parameters: {"id"=>"jquery"}
+  [1m[36mCliente Load (137.0ms)[0m  [1mSELECT `clientes`.* FROM `clientes` WHERE `clientes`.`id` = 0 LIMIT 1[0m
+Completed 500 Internal Server Error in 150ms
+
+ActiveRecord::RecordNotFound (Couldn't find Cliente with id=jquery):
+  app/controllers/clientes_controller.rb:17:in `show'
+
+
+  Rendered /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (16.9ms)
+  Rendered /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.9ms)
+  Rendered /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (47.2ms)
+
+
+Started GET "/clientes/jquery.maskedinput.js" for 127.0.0.1 at 2014-05-04 21:09:44 -0300
+
+ActionController::RoutingError (No route matches [GET] "/clientes/jquery.maskedinput.js"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.4ms)
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-05-04 21:10:46 -0300
+Processing by ClientesController#new as HTML
+  Rendered clientes/_form.html.erb (125.7ms)
+  Rendered clientes/new.html.erb within layouts/application (130.1ms)
+  Rendered layouts/_header.html.erb (14.4ms)
+  Rendered layouts/_topo.html.erb (0.8ms)
+  Rendered layouts/_sessao.html.erb (1.9ms)
+  Rendered layouts/_menu.html.erb (11.3ms)
+  Rendered layouts/_rodape.html.erb (0.2ms)
+Completed 200 OK in 183ms (Views: 178.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-05-04 21:10:47 -0300
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/960.css?body=1" for 127.0.0.1 at 2014-05-04 21:10:47 -0300
+Served asset /960.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-04 21:10:47 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sunny/jquery-ui-1.9.1.custom.min.css?body=1" for 127.0.0.1 at 2014-05-04 21:10:47 -0300
+Served asset /sunny/jquery-ui-1.9.1.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/template.css?body=1" for 127.0.0.1 at 2014-05-04 21:10:47 -0300
+Served asset /template.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-04 21:10:47 -0300
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/clientes/assets/jquery.js" for 127.0.0.1 at 2014-05-04 21:10:47 -0300
+
+ActionController::RoutingError (No route matches [GET] "/clientes/assets/jquery.js"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.1ms)
+
+
+Started GET "/clientes/assets/jquery.maskedinput.js" for 127.0.0.1 at 2014-05-04 21:10:47 -0300
+
+ActionController::RoutingError (No route matches [GET] "/clientes/assets/jquery.maskedinput.js"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.4ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-05-04 21:10:47 -0300
+Served asset /logo.png - 304 Not Modified (1ms)
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-05-04 21:12:24 -0300
+Processing by ClientesController#new as HTML
+  Rendered clientes/_form.html.erb (44.2ms)
+  Rendered clientes/new.html.erb within layouts/application (59.3ms)
+  Rendered layouts/_header.html.erb (27.2ms)
+  Rendered layouts/_topo.html.erb (3.6ms)
+  Rendered layouts/_sessao.html.erb (1.7ms)
+  Rendered layouts/_menu.html.erb (8.4ms)
+  Rendered layouts/_rodape.html.erb (0.2ms)
+Completed 200 OK in 129ms (Views: 125.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-05-04 21:12:24 -0300
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/960.css?body=1" for 127.0.0.1 at 2014-05-04 21:12:24 -0300
+Served asset /960.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-04 21:12:24 -0300
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/sunny/jquery-ui-1.9.1.custom.min.css?body=1" for 127.0.0.1 at 2014-05-04 21:12:24 -0300
+Served asset /sunny/jquery-ui-1.9.1.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/template.css?body=1" for 127.0.0.1 at 2014-05-04 21:12:24 -0300
+Served asset /template.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-04 21:12:24 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/clientes/..assets/jquery.js" for 127.0.0.1 at 2014-05-04 21:12:24 -0300
+
+ActionController::RoutingError (No route matches [GET] "/clientes/..assets/jquery.js"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (5.9ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-05-04 21:12:24 -0300
+Served asset /logo.png - 304 Not Modified (1ms)
+
+
+Started GET "/clientes/..assets/jquery.maskedinput.js" for 127.0.0.1 at 2014-05-04 21:12:24 -0300
+
+ActionController::RoutingError (No route matches [GET] "/clientes/..assets/jquery.maskedinput.js"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/devil/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.4ms)
+
+
+Started GET "/clientes/new" for 127.0.0.1 at 2014-05-04 21:14:31 -0300
+Processing by ClientesController#new as HTML
+  Rendered clientes/_form.html.erb (21.0ms)
+  Rendered clientes/new.html.erb within layouts/application (25.4ms)
+  Rendered layouts/_header.html.erb (14.7ms)
+  Rendered layouts/_topo.html.erb (0.7ms)
+  Rendered layouts/_sessao.html.erb (1.6ms)
+  Rendered layouts/_menu.html.erb (6.9ms)
+  Rendered layouts/_rodape.html.erb (0.2ms)
+Completed 200 OK in 71ms (Views: 66.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-05-04 21:14:31 -0300
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/960.css?body=1" for 127.0.0.1 at 2014-05-04 21:14:31 -0300
+Served asset /960.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-04 21:14:31 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sunny/jquery-ui-1.9.1.custom.min.css?body=1" for 127.0.0.1 at 2014-05-04 21:14:31 -0300
+Served asset /sunny/jquery-ui-1.9.1.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/template.css?body=1" for 127.0.0.1 at 2014-05-04 21:14:31 -0300
+Served asset /template.css - 304 Not Mod

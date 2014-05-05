@@ -1,0 +1,45 @@
+<%= form_for(@produto) do |f| %>
+  <% if @produto.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@produto.errors.count, "error") %> prohibited this produto from being saved:</h2>
+
+      <ul>
+      <% @produto.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :codigo, "Código" %><br />
+    <%= f.text_field :codigo %>
+  </div>
+  <div class="field">
+    <%= f.label :descricao, "Descrição" %><br />
+    <%= f.text_field :descricao %>
+  </div>
+  <div class="field">
+    <%= f.label :setor %><br />
+    <%= f.text_field :setor %>
+  </div>
+  <div class="field">
+    <%= f.label :preco_de_custo, "Preço de custo" %><br />
+    <%= f.text_field :preco_de_custo %>
+  </div>
+  <div class="field">
+    <%= f.label :margem_de_lucro %><br />
+    <%= f.text_field :margem_de_lucro %>
+  </div>
+  <div class="field">
+    <%= f.label :preco_de_venda, "Preço de Venda" %><br />
+    <%= f.text_field :preco_de_venda %>
+  </div>
+  <div class="actions">
+    <% if controller.action_name == 'new' %>
+        <%= f.submit("Salvar") %>
+    <% else %>
+        <%= f.submit("Atualizar") %>
+    <% end %>
+  </div>
+<% end %>

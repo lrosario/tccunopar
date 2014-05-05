@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+<meta charset="utf-8" />
+<title>jQuery Show Password Plugin</title>
+<link href="http://trevordavis.net/play/jquery-show-password/stylesheets/screen.css" rel="stylesheet" media="screen,projection" />
+<style>
+.forms li {
+  position: relative;
+}
+.show-password-link {
+  display: block;
+  position: absolute;
+  z-index: 11;
+}
+.password-showing {
+  position: absolute;
+  z-index: 10;
+}
+</style>
+</head>
+
+<body>
+  
+  <form action="/login/create" method="post">
+    <ol class="forms">
+      <li>
+        <label for="login">Usuário</label>
+        <input type="text" name="login" id="login" />
+      </li>
+      <li>
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha" class="password" />
+      </li>
+      <li class="buttons">
+        <button type="submit">Entrar</button>
+      </li>
+    </ol>
+  </form>
+  
+  
+<script src="http://trevordavis.net/play/jquery-show-password/scripts/jquery.js"></script>
+<script src="http://trevordavis.net/play/jquery-show-password/scripts/jquery.showPassword.js"></script>
+<script>
+$(document).ready(function() {
+  $(':password').showPassword({
+    linkRightOffset: 5,
+    linkTopOffset: 11
+  });
+});
+</script>
+</body>
+</html>

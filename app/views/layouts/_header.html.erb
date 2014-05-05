@@ -1,0 +1,29 @@
+<meta charset="utf-8">
+<title>MultiAção Sistema Integrado.</title>
+<%= stylesheet_link_tag    "reset", :media => "all" %>
+<%= stylesheet_link_tag    "960", :media => "all" %>
+<%= stylesheet_link_tag    "application", :media => "all" %>
+<%= stylesheet_link_tag    "sunny/jquery-ui-1.9.1.custom.min.css", :media => "all" %>
+<%= stylesheet_link_tag    "template", :media => "all" %>
+<%= javascript_include_tag "application" %>
+<%= csrf_meta_tags %>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#conteudo h1").addClass("ui-state-default ui-corner-top");
+        $(".actions").addClass("ui-state-active ui-corner-bottom").css({padding: '5px'});
+        $(".navegacao").addClass("ui-state-active");
+        $(".navegacao a").button();
+        $(".actions a").button();
+        $(".actions input:submit").button();
+        $(".actions button").button();
+        $("#menu a").button({
+            icons: {
+                secondary: "ui-icon-triangle-1-e"
+            }
+        });
+        $("table tr th").addClass("ui-state-default");
+        $("table tr:even td").css({background: "#EFEFEF"});
+        $("#conteudo p:even").css({background: "#EFEFEF"});
+    });
+</script>

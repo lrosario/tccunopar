@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>0bd9271b-6ec1-4b88-a9ce-4a7c9d12f815.schema:lojanet_development.public</OriginalElement>
+  <nodes>
+    <node x="0.0" y="819.0">0bd9271b-6ec1-4b88-a9ce-4a7c9d12f815.table:lojanet_development.public.fornecedores</node>
+    <node x="0.0" y="546.0">0bd9271b-6ec1-4b88-a9ce-4a7c9d12f815.table:lojanet_development.public.usuarios_id_seq</node>
+    <node x="0.0" y="1033.0">0bd9271b-6ec1-4b88-a9ce-4a7c9d12f815.table:lojanet_development.public.usuarios</node>
+    <node x="225.0" y="1033.0">0bd9271b-6ec1-4b88-a9ce-4a7c9d12f815.table:lojanet_development.public.schema_migrations</node>
+    <node x="490.0" y="819.0">0bd9271b-6ec1-4b88-a9ce-4a7c9d12f815.table:lojanet_development.public.clientes</node>
+    <node x="245.0" y="819.0">0bd9271b-6ec1-4b88-a9ce-4a7c9d12f815.table:lojanet_development.public.funcionarios</node>
+    <node x="0.0" y="0.0">0bd9271b-6ec1-4b88-a9ce-4a7c9d12f815.table:lojanet_development.public.estoques_id_seq</node>
+    <node x="735.0" y="819.0">0bd9271b-6ec1-4b88-a9ce-4a7c9d12f815.table:lojanet_development.public.estoques</node>
+    <node x="396.0" y="0.0">0bd9271b-6ec1-4b88-a9ce-4a7c9d12f815.table:lojanet_development.public.funcionarios_id_seq</node>
+    <node x="0.0" y="273.0">0bd9271b-6ec1-4b88-a9ce-4a7c9d12f815.table:lojanet_development.public.produtos_id_seq</node>
+    <node x="396.0" y="273.0">0bd9271b-6ec1-4b88-a9ce-4a7c9d12f815.table:lojanet_development.public.clientes_id_seq</node>
+    <node x="792.0" y="546.0">0bd9271b-6ec1-4b88-a9ce-4a7c9d12f815.table:lojanet_development.public.produtos</node>
+    <node x="396.0" y="546.0">0bd9271b-6ec1-4b88-a9ce-4a7c9d12f815.table:lojanet_development.public.fornecedores_id_seq</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="0.9470881863560731" x="192.07308503162338" y="536.3636363636364" />
+  <SelectedNodes>
+    <node>0bd9271b-6ec1-4b88-a9ce-4a7c9d12f815.table:lojanet_development.public.fornecedores</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+

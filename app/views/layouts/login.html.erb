@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <%= render '/layouts/header' %>
+</head>
+<body>
+<div id="geral" class="container_12">
+  <div id="topo" class="grid_12">
+    <%= render '/layouts/topo' %>
+  </div>
+  <div class="grid_4">&nbsp;</div>
+  <div id="conteudo" class="grid_4">
+    <%= yield %>
+  </div>
+  <div class="grid_4">&nbsp;</div>
+</div>
+<div id="rodape_ext">
+  <div id="rodape_int" class="container_12">
+    <div id="rodape" class="grid_12">
+      <%= render '/layouts/rodape' %>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

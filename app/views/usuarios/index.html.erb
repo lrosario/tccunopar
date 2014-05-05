@@ -1,0 +1,27 @@
+<h1>Usuários Cadastrados</h1>
+
+<table>
+  <tr>
+    <th>Login</th>
+    <th>Senha</th>
+    <th>Email</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @usuarios.each do |usuario| %>
+  <tr>
+    <td><%= usuario.login %></td>
+    <td><%= usuario.senha %></td>
+    <td><%= usuario.email %></td>
+    <td><%= link_to 'Ver', usuario %></td>
+    <td><%= link_to 'Editar', edit_usuario_path(usuario) %></td>
+    <td><%= link_to 'Deletar', usuario, confirm: 'Tem certeza?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Novo', new_usuario_path %>

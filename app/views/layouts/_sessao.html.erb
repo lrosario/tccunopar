@@ -1,0 +1,7 @@
+<p style="text-align: right;">
+Olá, <b>
+  <% if session[:sis_logon] %>
+      <%= session[:sis_logon].login %>
+  <% end %>
+</b>. Seja bem vindo(a)! | <%= link_to 'Sair', {:controller => "login", :action => "destroy"} %>
+</p>

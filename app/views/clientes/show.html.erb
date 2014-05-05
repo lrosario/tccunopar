@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Cliente</h1>
+
+<div class="navegacao">
+  <%= link_to 'Voltar', clientes_path %>
+</div>
+
+<p>
+  <b>Codigo:</b>
+  <%= @cliente.codigo %>
+</p>
+
+<p>
+  <b>Nome:</b>
+  <%= @cliente.nome %>
+</p>
+
+<p>
+  <b>Endereco:</b>
+  <%= @cliente.endereco %>
+</p>
+
+<p>
+  <b>Telefone:</b>
+  <%= @cliente.telefone %>
+</p>

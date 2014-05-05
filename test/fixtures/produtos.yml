@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  codigo: MyString
+  descricao: MyString
+  setor: MyString
+  preco_de_custo: 9.99
+  margem_de_lucro: 9.99
+  preco_de_venda: 9.99
+
+two:
+  codigo: MyString
+  descricao: MyString
+  setor: MyString
+  preco_de_custo: 9.99
+  margem_de_lucro: 9.99
+  preco_de_venda: 9.99

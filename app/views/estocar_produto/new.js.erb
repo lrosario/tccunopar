@@ -1,0 +1,7 @@
+$('#nEstocar').html("<%= escape_javascript(render :partial => '/estoques/form') %>");
+$("#nEstocar .actions").addClass("ui-state-active ui-corner-bottom").css({padding: '5px'});
+$("#nEstocar .actions input:submit").button();
+$("#nEstocar .actions input:submit").attr("value", "Salvar");
+$("#nEstocar form").attr("action", "/estocar_produto/create");
+$("#nEstocar form").attr("data-remote", "true");
+$("#nEstocar").dialog("open");
